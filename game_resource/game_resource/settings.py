@@ -31,6 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'game_catalog.apps.GameCatalogConfig'
+    'game_consol_news.apps.GameConsolNewsConfig'
+    'game_lifehack.apps.GameLifehackConfig'
+    'game_news.apps.GameNewsConfig'
+    'index.apps.IndexConfig'
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
